@@ -18,135 +18,73 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
-```
-NAME: Sanjai S
-REG NO: 212223230186
-```
-```
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-```
+# Line Graph
+ ![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/73bf39e5-9636-4fbf-912a-973c6bee1c02)
 
-## Line Plot:
+ ![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/714c39f4-c504-451e-ba95-54704ab98ca1)
 
-```
-marks=[13,45,63,78]
-student=['ABC','QOR','EFB','TOB']
-plt.plot(marks,student)
-plt.xlabel('Marks')
-plt.ylabel('Student name')
-plt.show()
+ ![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/e10bb3c0-1cbd-4d88-b0ad-e13087e8bec7)
 
-student=['A','B','C','D']
-attendence=[90,85,73,88]
-plt.plot(attendence,student)
-plt.xlabel('Attendence')
-plt.ylabel('Student name')
-plt.show()
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/915713f5-50b1-4013-8037-3a9cc599f291)
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/2c1045e8-4543-4f00-afd9-9ce817ea43aa)
 
-## Scatter Plot:
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/5a48054a-99ff-4de4-b4ff-e1ddc85858ec)
 
-```
-x=[10,20,30,40,50]
-y=[100,200,300,400,500]
-plt.scatter(x,y,label='stars',color='green',marker='*',s=30)
-plt.show()
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/61e0ac79-2e42-45c7-920f-84ad8065e520)
 
-x=np.arange(0,15)
-y=np.arange(0,15)
-x
-y
-plt.scatter(x,y,c='r')
-plt.xlabel('X axis')
-plt.ylabel('y axis')
-plt.title('Scatter plot')
-plt.show()
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/7fab8701-3aee-4b5a-b729-cb82a6c2dd16)
+# Scatter Plot
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/9b29467f-d013-4ba5-b91e-181de6711ee5)
 
-## Pie Chart:
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/2339c126-5702-448a-9b73-852d26ef8b50)
 
-```
-act=['eat','sleep','work','play']
-slices=[3,7,8,6]
-color=['r','y','g','b']
-plt.pie(slices,labels=act,colors=color,startangle=90,shadow=True,explode=(0.1,0.1,0.1,0.1),radius=1.2,autopct='%1.1f%%')
-plt.legend()
-plt.show()
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/c246b292-3829-4cb6-bc2d-067d0b892f29)
 
-feedback=['Good','excellent','Perfect','Ok']
-slices=[4,10,3,8]
-color=['y','r','b','g']
-plt.pie(slices,labels=feedback,colors=color,startangle=90,shadow=True,explode=(0.1,0.1,0.1,0.1),radius=1.2,autopct='%1.1f%%')
-plt.legend()
-plt.show()
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/a16d81be-4162-41f0-ba84-7d43883c3248)
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/bbff9007-1cb1-4cbe-a62d-b2997c08d77d)
 
-## Area Chart:
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/7c3b3eb5-b2ee-4567-bdc8-3e27938e99dc)
 
-```
-x = [1, 2, 3, 4, 5]
-y1 = [10, 12, 14, 16, 18]
-y2 = [5, 7, 9, 11, 13]
-y3 = [2, 4, 6, 8, 10]
-plt.fill_between(x, y1, color='blue')
-plt.fill_between(x, y2, color='green')
-plt.plot(x, y1, color='red')
-plt.plot(x, y2, color='black')
-plt.legend(['y1','y2'])
-plt.show()
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/9d90b6c9-70ac-4f52-bec1-975fafa4afc7)
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/5b061d0b-96a0-44da-9035-6fc03564d458)
 
-## Bar Chart:
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/40254063-c10b-42e5-af96-49ff7f6b7546)
 
-```
-height = [10, 24, 36, 40, 5]
-names = ['one', 'two', 'three', 'four', 'five']
-c1=['red', 'green'] 
-c2=['b', 'g']
-plt.bar (names, height, width=0.8, color=c1)
-plt.xlabel('x - axis')
-plt.ylabel('y - axis')
-plt.title('My bar chart!')
-plt.show()
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/6685a45c-7ed2-44c4-8730-3a2e55acf7e3)
+# Area Chart
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/b1ddfd59-ce17-40b2-98e9-b9cb991490c5)
 
-## Histogram:
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/c0d8053d-faa8-47e8-8796-d56aa23c9a07)
 
-```
-x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
-plt.hist(x, bins = 10, color='blue', alpha=0.5)
-plt.show()
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/c7d07305-db41-438c-8585-81346fead120)
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/f1b4ebfa-0c38-47e6-adb3-97579aefcf4f)
 
-## Box Plot:
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/7251d03b-f674-4cd5-bea1-e69bec86d285)
 
-```
-np.random.seed(0)
-data=np.random.normal(loc=0, scale=1, size=100)
-data
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/1073572a-2c3a-487c-a1b8-efdbc595ac91)
+# Spline Chart
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/47df3913-413e-4c91-b033-9cf0567e093b)
 
-```
-fig, ax= plt.subplots()
-ax.boxplot(data)
-ax.set_xlabel('Data')
-ax.set_ylabel('Values')
-ax.set_title('Box Plot')
-```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/3e04e28b-5a0e-412e-ad52-ecda68c69561)
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/8f1755dc-b875-496d-9d97-4268e2cb9c32)
 
+# Bar Chart
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/5156830e-6ea3-4b91-92b8-bfd8d145713d)
 
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/c0033a63-164f-4cc4-996f-95201893ecd0)
+
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/f44b28df-de23-4101-a61a-e261e3532364)
+
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/a9742915-7b35-47fd-b59d-b7b8fadc54b2)
+
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/555b339d-2f21-4348-9feb-b631839a5e36)
+
+# Histogram
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/9964cb3a-88ad-4adc-83e8-b936f6b86d12)
+
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/3a7dab5f-b3ec-419e-96c0-8807e20cf43a)
+
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/d4101745-4a05-4c0a-8c79-ad356d8e7b43)
+
+# Box Plot
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/172f8db9-8683-4c10-a38b-59494ace81f6)
+
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/662bd95d-924e-403a-aeb0-3809cad79811)
+
+# Pie Chart
+![image](https://github.com/SamyukthaSreenivasan/EXNO-5-DS/assets/119475703/d31e6000-d08c-4e69-90bb-39ba7fe5bb8e)
 
 # Result:
-
-Thus, all the data visualization techniques of matplotlib has been implemented.
+Thus the program to Perform Data Visualization using matplot python library for the given datas is been implemented.
